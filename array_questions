@@ -10,6 +10,7 @@ Solution in appian
 a!localVariables(
   local!data: { 1, 2, 3, 3},
   local!cnt,
+  local!test,
   a!forEach(
     items: enumerate(4),
     expression: if(
